@@ -1,5 +1,23 @@
+
 body{
     background-color: beige;
+}
+section{
+    display: flex;
+}
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    align-content: space-between;
+  }
+article:nth-of-type(2){
+    flex: 2;
+}
+.flexGrowContainer{
+    display: flex;
+    align-items: stretch;
+    background-color: blueviolet;
 }
 h1{
     color: red;
