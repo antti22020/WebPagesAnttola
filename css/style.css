@@ -2,22 +2,13 @@
 body{
     background-color: beige;
 }
-section{
+.main{
     display: flex;
 }
-.flexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: red;
-    align-content: space-between;
-  }
-article:nth-of-type(2){
-    flex: 2;
-}
-.flexGrowContainer{
-    display: flex;
-    align-items: stretch;
-    background-color: blueviolet;
+sidebar{
+    margin:10px;
+    background-color:aliceblue;
+    min-width: 100px;
 }
 h1{
     color: red;
