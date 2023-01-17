@@ -8,7 +8,7 @@ body{
 sidebar{
     margin:10px;
     background-color:aliceblue;
-    min-width: 100px;
+    min-width: 200px;
 }
 h1{
     color: red;
